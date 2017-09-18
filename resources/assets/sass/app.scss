@@ -1,0 +1,197 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Rochester");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+/*@import "~bootstrap-sass/assets/stylesheets/bootstrap";*/
+
+// Bulma
+@import "node_modules/font-awesome/css/font-awesome";
+@import "node_modules/bulma/css/bulma";
+@import "overwrites";
+
+*{
+	font-family: 'source sans pro';
+}
+
+body, html {
+	height: 100%;
+}
+
+.parallax-1 { 
+	/* The image used */
+	background-image: url("/images/hero_01.jpg")!important;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-2 { 
+	/* The image used */
+	background-image: url("/images/hero_02.jpg")!important;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-3 { 
+	/* The image used */
+	background-image: url("/images/hero_03.jpg")!important;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-4 { 
+	/* The image used */
+	background-image: url("/images/hero_04.jpg")!important;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.is-2em{
+	font-size:2.5em;
+}
+
+.hero-content{
+	>h2{
+		font-family: 'Rochester', cursive;
+	}
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dot-seperator{
+	color:$brand-primary;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.hero-content >.subtitle{
+	text-align:center;
+	color:#777777!important;
+	padding:10px;
+}
+
+.has-white-bg{
+	background-color:white!important;
+	padding:5px;
+}
+
+.mt-50{
+	margin-top:50px;
+}
+
+.mb-50{
+	margin-bottom:50px;
+}
+
+.img-round{
+	border-radius:90%;
+}
+
+.column{
+	margin:20px;
+	padding:20px;
+}
+
+.column.card{
+	padding:0px!important;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.card-image{
+	height:250px;
+	overflow:hidden;
+}
+
+.card-image img{
+	/*min-height:250px;*/
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+p{
+	max-width:800px;
+	margin:0 auto;
+}
+
+section.section{
+	margin-bottom:50px;
+}
+
+.navbar { position: fixed !important; top: 0; left: 0; right: 0; z-index:1;}
+
+.form-logo{
+	width:75%;
+	display: block;
+	margin: 0 auto;
+}
+
+.button.is-primary {
+	background-color: $brand-primary;
+	border-color: transparent;
+	color: #fff;
+}
+
+input:focus, input:active, textarea:focus, textarea:active{
+	border-color:$brand-primary!important;
+	box-shadow:none!important;
+}
+
+.button.is-primary:hover {
+	background-color: darken($brand-primary, 5%);
+	border-color: transparent;
+	color: #fff;
+}
+
+.footer{
+	padding-bottom:20px;
+}
+
+@media (max-width:1023px) {
+
+	.navbar{
+		position:relative!important;
+		min-height:8rem;
+	}
+
+	.navbar-end{
+		display:none;
+	}
+
+	.card-content {
+		padding: 0; 
+	}
+
+	hr{
+		display:none;
+	}
+
+	.navbar-item img {
+		max-height: 4.75rem;
+		margin-top:15px;
+		widht:250px;
+	}
+
+}

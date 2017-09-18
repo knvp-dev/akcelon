@@ -1,0 +1,17 @@
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active{
+	background-color:transparent;
+	color:$brand-primary;
+}
+
+@media screen and (min-width: 1024px)
+{
+	.navbar {
+		min-height: 7.25rem;
+	}
+
+	.navbar-item img {
+		max-height: 3.75rem;
+	}
+}
+
+

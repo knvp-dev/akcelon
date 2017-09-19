@@ -1,7 +1,7 @@
 <nav class="navbar has-shadow">
 	<div class="container">
 		<div class="navbar-start">
-			<a class="navbar-item">
+			<a class="navbar-item" href="/">
 				<img src="images/logo.svg" width="100%" height="150" alt="Akcelon">
 			</a>
 		</div>

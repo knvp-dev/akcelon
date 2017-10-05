@@ -72,12 +72,17 @@ body, html {
 
 .hero-content{
 	>h2{
-		font-family: 'Rochester', cursive;
+		font-family: 'Source Sans Pro', sans-serif;
 	}
 	display:flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: left;
+	justify-content: left;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius:20px;
+	background-color: rgba(233, 90, 12, 0.82);
+    max-width: 610px;
+    padding: 10px;
 }
 
 .dot-seperator{
@@ -87,13 +92,13 @@ body, html {
 }
 
 .hero-content >.subtitle{
-	text-align:center;
-	color:#777777!important;
+	text-align:left;
+	color:#fff!important;
 	padding:10px;
 }
 
 .has-white-bg{
-	background-color:white!important;
+	/*background-color:white!important;*/
 	padding:5px;
 }
 
@@ -116,13 +121,23 @@ body, html {
 
 .column.card{
 	padding:0px!important;
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
+	border-top-right-radius: 14px;
+	border-top-left-radius: 14px;
 }
 
 .card-image{
 	height:250px;
 	overflow:hidden;
+}
+
+.card-content{
+	background-color: #fff;
+    min-height: 300px;
+    >h1{
+    	color:$brand-primary;
+    }
+    border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 .card-image img{

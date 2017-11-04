@@ -72,7 +72,7 @@ body, html {
 
 .hero-content{
 	>h2{
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Raleway', sans-serif;
 	}
 	display:flex;
 	flex-direction: column;
@@ -80,7 +80,7 @@ body, html {
 	justify-content: left;
 	border-bottom-right-radius: 20px;
 	border-top-left-radius:20px;
-	background-color: rgba(233, 90, 12, 0.82);
+	//background-color: rgba(233, 90, 12, 0.82);
     max-width: 610px;
     padding: 10px;
 }

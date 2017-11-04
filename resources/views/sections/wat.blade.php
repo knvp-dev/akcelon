@@ -28,47 +28,12 @@
 		<br>
 		
 		<div class="columns mt-50">
-			<div class="column">
-				<div class="card-image">
-				<img src="/images/hero_01.jpg" alt="">
-				</div>
-				<div class="card-content">
-					<h1 class="title">INTERIM MANAGEMENT</h1>
-					
-					<p>
-						Akcelon heeft een brede HR-ervaring die inzetbaar is wanneer jij die nodig hebt. 
-						We kunnen inspringen voor je afwezige HR-medewerkers en/of toegevoegde waarde brengen in diverse HR-domeinen.
-					</p>
-					<br>
-					<p>
-						Wanneer de nood het hoogst is, kan Akcelon je helpen om snel en accuraat het tekort aan HR-talent te overbruggen met net die competenties die je ter plaatse nodig hebt en dit alleen voor de gewenste duur. Je zal professioneel geholpen worden via een kwalitatieve, transparante en doelgerichte aanpak.
-					</p>
-				</div>
-			</div>
 
-			<div class="column ">
-				<div class="card-image">
-				<img src="/images/hero_02.jpg" alt="">
-			</div>
-				<div class="card-content">
-					<h1 class="title">HR CONSULTANCY</h1>
-					
-					<p>
-						Akcelon ondersteunt organisaties door hun HR-strategie uit te bouwen of te versterken.
-					</p>
-					<br>
-					<p>
-						We helpen onze klanten door HR-advies aan te bieden binnen een breed HR-domein en dit op projectmatige basis. Dit omvat: talent management, rekrutering &amp; selectie, evaluatie, verloning, ontwikkeling &amp; motivatie.
 
-					</p>
-				</div>
-			</div>
-</div>
-<div class="columns">
-			<div class="column ">
-				<div class="card-image">
+			<div class="column is-5">
+				{{--  <div class="card-image">
 				<img src="/images/hero_03.jpg" alt="">
-			</div>
+			</div>  --}}
 				<div class="card-content">
 					<h1 class="title">COACHING</h1>
 					
@@ -89,6 +54,45 @@
 					</p>
 				</div>
 			</div>
+
+			<div class="column is-6">
+				{{--  <div class="card-image">
+				<img src="/images/hero_01.jpg" alt="">
+				</div>  --}}
+				<div class="card-content">
+					<h1 class="title">INTERIM MANAGEMENT</h1>
+					
+					<p>
+						Akcelon heeft een brede HR-ervaring die inzetbaar is wanneer jij die nodig hebt. 
+						We kunnen inspringen voor je afwezige HR-medewerkers en/of toegevoegde waarde brengen in diverse HR-domeinen.
+					</p>
+					<br>
+					<p>
+						Wanneer de nood het hoogst is, kan Akcelon je helpen om snel en accuraat het tekort aan HR-talent te overbruggen met net die competenties die je ter plaatse nodig hebt en dit alleen voor de gewenste duur. Je zal professioneel geholpen worden via een kwalitatieve, transparante en doelgerichte aanpak.
+					</p>
+				</div>
+			{{--  </div>
+
+			<div class="column is-2">  --}}
+				{{--  <div class="card-image">
+				<img src="/images/hero_02.jpg" alt="">
+			</div>  --}}
+				<div class="card-content">
+					<h1 class="title">HR CONSULTANCY</h1>
+					
+					<p>
+						Akcelon ondersteunt organisaties door hun HR-strategie uit te bouwen of te versterken.
+					</p>
+					<br>
+					<p>
+						We helpen onze klanten door HR-advies aan te bieden binnen een breed HR-domein en dit op projectmatige basis. Dit omvat: talent management, rekrutering &amp; selectie, evaluatie, verloning, ontwikkeling &amp; motivatie.
+
+					</p>
+				</div>
+			{{--  </div>  --}}
+{{--  </div>  --}}
+{{--  <div class="columns">  --}}
+			
 		</div>
 
 	</div>

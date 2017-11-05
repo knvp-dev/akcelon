@@ -2,6 +2,7 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 @import url("https://fonts.googleapis.com/css?family=Rochester");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Patua+One|Roboto");
 
 // Variables
 @import "variables";
@@ -15,7 +16,7 @@
 @import "overwrites";
 
 *{
-	font-family: 'source sans pro';
+	font-family: 'Open sans';
 }
 
 body, html {
@@ -68,6 +69,10 @@ body, html {
 
 .is-2em{
 	font-size:2.5em;
+}
+
+h1.title{
+	font-family: "Patua One";
 }
 
 .hero-content{

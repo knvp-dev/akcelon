@@ -36,7 +36,8 @@
 			</div>  --}}
 				<div class="card-content">
 					<h1 class="title">COACHING</h1>
-					
+					<div style="font-family:'Roboto';">
+					( Roboto )
 					<p>
 						Akcelon coacht medewerkers door een samenwerking tot stand te brengen gebaseerd op wederzijds respect en vertrouwen. Zo ontwikkelen we het aanwezige potentieel en verbeteren we prestaties.
 					</p>
@@ -52,6 +53,7 @@
 					<p>
 						Veranderen, dingen anders aanpakken, vraagt een inspanning en focus. Maar het is de investering meer dan waard. Het gevoel om er weer volop tegen aan te kunnen gaan is onbetaalbaar.
 					</p>
+					</div>
 				</div>
 			</div>
 
@@ -61,7 +63,7 @@
 				</div>  --}}
 				<div class="card-content">
 					<h1 class="title">INTERIM MANAGEMENT</h1>
-					
+					<div style="font-family:'Raleway';"> ( Raleway )
 					<p>
 						Akcelon heeft een brede HR-ervaring die inzetbaar is wanneer jij die nodig hebt. 
 						We kunnen inspringen voor je afwezige HR-medewerkers en/of toegevoegde waarde brengen in diverse HR-domeinen.
@@ -70,6 +72,7 @@
 					<p>
 						Wanneer de nood het hoogst is, kan Akcelon je helpen om snel en accuraat het tekort aan HR-talent te overbruggen met net die competenties die je ter plaatse nodig hebt en dit alleen voor de gewenste duur. Je zal professioneel geholpen worden via een kwalitatieve, transparante en doelgerichte aanpak.
 					</p>
+					</div>
 				</div>
 			{{--  </div>
 
@@ -79,7 +82,7 @@
 			</div>  --}}
 				<div class="card-content">
 					<h1 class="title">HR CONSULTANCY</h1>
-					
+					( Open sans )
 					<p>
 						Akcelon ondersteunt organisaties door hun HR-strategie uit te bouwen of te versterken.
 					</p>

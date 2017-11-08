@@ -7,7 +7,7 @@
 			</h1>
 			<div class="hero-content">
 				<h2 class="subtitle is-2em has-white-bg">
-					“ Zoek wat je hart doet zingen en maak je eigen muziek. ” 
+					“ Find what makes your heart sing and create your own music. ” 
 				</h2>
 				<h2 class="subtitle is-2em has-white-bg">
 					- Mac Anderson
@@ -19,32 +19,24 @@
 
 <section class="section">
 	<div class="container has-text-centered">
-		<h1 class="title">WIE ZIJN WE</h1>
+		<h1 class="title">{{ __('content.wie.title') }}</h1>
 		<h2 class="subtitle"><i class="fa fa-circle dot-seperator"></i></h2>
 		<img src="images/foto_02.png" width="200" alt="akcelon" class="img-round mb-50">
 		<p>
-			Isabel Benoit heeft een Master in Pedagogische Wetenschappen met een specialisatie in bedrijfsdidactiek. Ze is een gecertificeerde project manager en coach.
+			{{ __('content.wie.p1') }}
 		</p>
 		<br>
 		<p>
-			Ze is een HR generalist die een brede HR ervaring (+15 jaar) heeft opgebouwd in verschillende types van bedrijven en sectoren. Ze was succesvol in diverse HR &amp; Talent Management rollen binnen complexe en (inter)nationale omgevingen.
-		</p>
-		
-		<br>
-	
-		<p>
-			Ze heeft een passie voor mensen, is een creatieve professional met een can-do spirit en staat erom bekend een geboren strategische business partner te zijn. 
+			{{ __('content.wie.p2') }}
 		</p>
 		<br>
 		<p>
-			Transparantie en authenticiteit draagt zij hoog in het vaandel.
-			MBTI-profiel: ENTP
+			{{ __('content.wie.p3') }}
 		</p>
-
-		{{-- <h2 class="subtitle mt-50">
-			Boost your talent, boost your business, boost yourself.
-		</h2> --}}
-
+		<br>
+		<p>
+			{{ __('content.wie.p4') }}
+		</p>
 	</div>
 </section>
 </div>

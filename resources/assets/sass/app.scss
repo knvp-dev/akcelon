@@ -67,6 +67,25 @@ body, html {
 	background-size: cover;
 }
 
+.change-lang{
+	z-index:1;
+	position:absolute;
+	right:0px;
+	padding:10px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	top:150px;
+	font-size:1.2em;
+	background-color:$brand-primary;
+	color:white;
+	>a{
+		color:white;
+		&:hover{
+			font-weight: bold;
+		}
+	}
+}
+
 .navbar-item{
 	font-weight: bolder;
 }
@@ -77,6 +96,7 @@ body, html {
 
 h1.title{
 	font-family: "Patua One";
+	text-transform: uppercase;
 }
 
 .hero-content{

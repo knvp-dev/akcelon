@@ -19,15 +19,15 @@
 
 <section class="section">
 	<div class="container has-text-centered">
-		<h1 class="title">WAT DOEN WE</h1>
+		<h1 class="title">{{ __('content.missie.title') }}</h1>
 		<h2 class="subtitle"><i class="fa fa-circle dot-seperator"></i></h2>
 		
 		<p>
-			Akcelon is een HR Consultancy provider die kostenbewuste, hoog-kwalitatieve HR-oplossingen aanbiedt in Interim Management, HR Consultancy &amp; Coaching. Met deze ondersteuning willen we je bedrijf verder laten groeien. 
+			{{ __('content.missie.p1') }}
 		</p>
 		<br>
 		<p>
-			Akcelon is Esperanto voor ‘boost’ verwijzend naar onze sterke drijfveer om strategisch HR-advies en -oplossingen aan te bieden op maat van je bedrijf. Zo verleggen we samen grenzen en bouwen we aan het unieke karakter dat je nodig hebt om succesvol te worden. 
+			{{ __('content.missie.p2') }}
 		</p>
 
 	</div>

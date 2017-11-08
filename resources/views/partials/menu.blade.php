@@ -8,24 +8,28 @@
 
 		<div class="navbar-end">
 			<a class="navbar-item" href="#" v-scroll-to="'#missie'">
-				Missie
+				{{ __('content.missie') }}
 			</a>
 			<a class="navbar-item" href="#" v-scroll-to="'#wie'">
-				Wie
+				{{ __('content.wie') }}
 			</a>
 			<a class="navbar-item" href="#" v-scroll-to="'#wat'">
-				Wat
+				{{ __('content.wat') }}
 			</a>
 			<a class="navbar-item" href="#" v-scroll-to="'#klanten'">
-				Klanten
+				{{ __('content.klanten') }}
 			</a>
 			<a class="navbar-item" href="#" v-scroll-to="'#contact'">
-				Contact
+				{{ __('content.contact') }}
 			</a>
-
-			
-
 		</div>
 
 	</div>
 </nav>
+
+
+<div class="change-lang">
+	<a href="/lang/nl">NL</a>
+	|
+	<a href="/lang/en">EN</a>
+</div>

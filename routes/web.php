@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/lang/{locale}', function($locale){
+    Session::put('locale', $locale);
+    return back();
+});
+
 Route::post('/contact', 'ContactController@store')->name('contact');
 
 

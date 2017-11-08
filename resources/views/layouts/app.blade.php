@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ Session::get('locale') }}">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,7 @@
 	
 	</head>
 	<body>
+		
 		<div id="app">
 			@include('partials.menu')
 				@yield('content')

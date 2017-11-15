@@ -25,7 +25,7 @@ return [
     "wat.p1" => "It might be that external HR expertise is exactly what you need. Akcelon offers cost efficient, high quality strategic HR advice & solutions in Interim Management, HR Consultancy & Coaching.",
     "wat.coaching.p1" => "Akcelon coaches associates by creating a partnership based on trust and respect in order to liberate potential and optimize performance.",
     "wat.coaching.p2" => "We truly belief in the power of everyone. The true question, the right mirror, can be clarifying and relieving in order to gain new insights and explore new roads.",
-    "wat.coaching.p3" => "Coaching starts with (creating) the willingness to do things differently. It’s a choice for a higher self-consciousness and a larger personal impact, a stronger motivation and more fun in life & at work.",
+    "wat.coaching.p3" => "Coaching starts with (creating) the willingness to do things differently. It’s a choice for a higher self-consciousness and a larger personal impact, a stronger motivation and more fun in life and at work.",
     "wat.coaching.p4" => "Changing, doing things differently, demands effort and focus. But it is well worth the investment. The feeling “to hit the road again” is priceless.",
     "wat.interim.p1" => "Akcelon has a broad HR expertise that is deployable when you need it. We can operate as a stand-in for your absent HR Management associates and/or also add extra value in various HR domains.",
     "wat.interim.p2" => "When a solution is most needed, Akcelon can help you quickly and accurately by “bridging” the right HR talent for you, on-site with the right amount of experience at the right time and only for the duration needed. 

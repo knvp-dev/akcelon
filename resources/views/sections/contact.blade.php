@@ -3,7 +3,7 @@
 	<section class="section">
 		<div class="container">
 			<h1 class="title has-text-centered">{{ __('content.contact.title') }}</h1>
-			<h2 class="subtitle  has-text-centered"><i class="fa fa-circle dot-seperator"></i> <br> {{ __('content.contact.p1') }}</h2>
+			<p class="has-text-centered"><i class="fa fa-circle dot-seperator"></i> <br> {{ __('content.contact.p1') }}</p>
 			<div class="columns">
 				<div class="column">
 					<img src="images/icon.jpg" alt="akcelon" class="form-logo">
